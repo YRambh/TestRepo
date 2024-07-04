@@ -1,5 +1,13 @@
-project_key = 'KAN'
-issue_type = 'Task'
+import requests
+import json
+
+# Configuration
+openai_api_key = ''
+jira_url = ''
+jira_api_token = ''
+jira_username = ''
+project_key = ''
+issue_type = ''
 
 # Function to generate issue summary and description using OpenAI
 def generate_issue_details(prompt):
